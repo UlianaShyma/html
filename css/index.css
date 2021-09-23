@@ -1,7 +1,84 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Indie+Flower&display=swap');
 
-h1{
-    font-family: 'Permanent Marker', cursive;
-    
+/*html{
+      max-width: 400px;
+      margin: auto;
+    }*/
+
+#logo
+{
+    font-family: 'Indie Flower', cursive;
+
+    background: center;
 }
 
+#places_logo
+{
+    margin: 20px;
+
+    align-content: center;
+}
+
+#places
+{
+    font-size: 36pt;
+
+    padding: 80px;
+
+    text-align: center;
+
+    opacity: .8;
+    color: azure;
+    border-radius: 10px;
+    background-image: url('../img/amazing_places_bg.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+
+main
+{
+    margin: 10px;
+}
+
+h2
+{
+    font-size: xx-large;
+
+    font-variant-caps: all-petite-caps;
+}
+
+h3
+{
+    font-size: larger;
+
+    font-variant-caps: all-petite-caps;
+}
+
+article
+{
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+
+    text-align: center;
+}
+
+.menu
+{
+    font-family: 'Indie Flower', cursive;
+}
+
+
+p
+{
+    font-family: 'Indie Flower', cursive;
+    font-size: large;
+
+    top: 50%;
+    left: 50%;
+
+    width: 400px;
+
+    text-align: left;
+}
