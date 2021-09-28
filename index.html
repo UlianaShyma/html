@@ -5,28 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/icon.jpg">
-    <title>Travel blog</title>
+    <link rel="stylesheet" href="css/index.css">
+    <title>TTP | Two ticket, please!</title>
 </head>
 <body>
 
-    <header id="home">
+    <header class="home">
+        <div id = "header">
+            <a href="#home" class="logo">
+                <img id = "logo" src="img/logo.png" alt="TTP"  width="120px">
+            </a>
+            <h1 id="site_title">Travel blog</h1>
         <nav>
-            <div class="logo">Travel blog</div>
             <div class="menu">
                 <a href="#home">Home</a>
-                <a href="places.html">Places</a>
+                <a href="#places">Places</a>
                 <a href="gallery.html">Gallery</a>
                 <a href="#contacts">Contacts</a>
             </div>
         </nav>
+        </div>
     </header> 
 
     <main>
-        <h2 id="home">Amazing places</h2>
-        <div class="home">
+
+        <h1 id = "places">Amazing places</h1>
+
+        <div class="places">
             <article>
-                <h3>Zakarpattya</h3>
-                <img src="img/Synevyr.jpg" alt="Закарпаття" width="400">
+                <h2 font-variant-caps: all-petite-caps>Zakarpattya</h2>
+                <img src="img/Synevyr.jpg" alt="Закарпаття" style="width: 100%; max-width: 800px">
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
                     expedita obcaecati adipisci explicabo impedit facere est qui
@@ -37,8 +45,8 @@
             </article>
 
             <article>
-                <h3>Hostynnyi dvir, Korosno</h3>
-                <img src="img/Korosno.jpg" alt="Гостинний двір" width="400">
+                <h2>Hostynnyi dvir, Korosno</h2>
+                <img src="img/Korosno.jpg" alt="Гостинний двір" style="width: 100%; max-width: 800px">
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
                     expedita obcaecati adipisci explicabo impedit facere est qui
@@ -49,8 +57,8 @@
             </article>
 
             <article>
-                <h3>Lviv</h3>
-                <img src="img/Lviv.jpg" alt="Львів" width="400">
+                <h2>Lviv</h2>
+                <img src="img/Lviv.jpg" alt="Львів" style="width: 100%; max-width: 800px">
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
                     expedita obcaecati adipisci explicabo impedit facere est qui
@@ -61,8 +69,8 @@
             </article>
 
             <article>
-                <h3>Vorohta</h3>
-                <img src="img/Vorohta.jpg" alt="Ворохта" width="400">
+                <h2>Vorohta</h2>
+                <img src="img/Vorohta.jpg" alt="Ворохта" style="width: 100%; max-width: 800px">
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
                     expedita obcaecati adipisci explicabo impedit facere est qui
@@ -76,7 +84,6 @@
 
     </main>
 
-<<<<<<< HEAD
    <footer>
         <h2 id="contacts">Contacts</h2>
         <form action="https://formspree.io/f/mdoybleq" method="POST">
@@ -96,13 +103,8 @@
               </p>
               <input type="submit">
             </div>
-      </form>
-        </footer>
-=======
-    <footer>
-        
-    </footer>
->>>>>>> 541f6de481d4c3c2ec1b32b8ab729b02345de306
+        </form>
+     </footer>
 
 </body>
 
