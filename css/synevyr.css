@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Indie+Flower&display=swap');
+
+/*html{
+      max-width: 400px;
+      margin: auto;
+    }*/
+
+*{
+    background-image: url(https://html5book.ru/wp-content/uploads/2015/05/background1.png);
+}
+body{
+    margin: 0px;
+}
+#background_synevyr{
+    position: relative;
+    overflow: hidden;
+    z-index: 1 
+}
