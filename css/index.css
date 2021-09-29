@@ -6,12 +6,12 @@
     }*/
 
 *{
-    background-image: url(https://html5book.ru/wp-content/uploads/2016/09/background75.jpg);
+    background-image: url(https://html5book.ru/wp-content/uploads/2015/05/background1.png);
 }
 
 #header{
     position: fixed;
-    justify-content: space-around;
+    justify-content: space-between;
     z-index: 2;
     align-content: center;
     display: inline-flex;
@@ -22,26 +22,45 @@
 
 #logo{
     /*display: inline;*/
-    padding: 5px;
+    position: absolute;
+    left: 7px;
+    top: 7px;
+    box-sizing: border-box;
 }
+
 #site_title
 {
     display: inline-block;
     font-family: 'Indie Flower', cursive;
+    font-size: 50px;
+    position: relative;
 }
-
 
 nav{
     display: inline-block;
-    font-family: 'Indie Flower', cursive;
     align-self: center;
-}
-
-.menu{
-    margin: 0 auto;
     font-family: 'Indie Flower', cursive;
+    position: relative;
+    right: 150px;
+}
+.menu{
+    background: transparent;
 }
 
+.menu a{
+    margin: 0 auto;
+    padding: 14px 16px;
+    font-size: 22px; 
+    font-weight: bold;
+    background: left;
+    font-family: 'Indie Flower', cursive;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+.menu a:hover{
+    border-bottom: 2px solid #000000FF;   
+}
 #places_logo
 {
     margin: 20px;
