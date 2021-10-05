@@ -17,7 +17,6 @@
 }
 
 #site_title {
-     
     position: absolute;
     text-align: center;
     letter-spacing: 7px;
@@ -42,19 +41,32 @@
 #places
 {
     font-size: 36pt;
-
-    padding: 10px;
-    margin: 0px;
+    letter-spacing: 5px;
+    padding: 15px;
+    margin: 15px;
     text-align: center;
+}
+@media (min-width: 1100px) {
 
-    opacity: .9;
-    color: #000000FF;
-    border-radius: 10px;
-    background-position: center;
-    background-size: cover;
+    .container_article_odd {
+        display: flex;
+    }
+    .container_article_twin{
+        display: flex;
+        flex-direction: row-reverse;
+    }
 }
 
+@media (max-width: 1100px) {
 
+    .container_article_odd {
+        display: block;
+    }
+    .container_article_twin{
+        display: block;
+    }
+    
+}
 main
 {
     position: relative;
@@ -76,10 +88,15 @@ h3
 
 article
 {
-    max-width: 800px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    max-width: 80%;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
+    box-shadow: 3px 3px 3px 3px;
+    border-radius: 15px;
+    box-sizing: 20px;
 }
 
 p
@@ -90,17 +107,30 @@ p
     display: inline-block; 
     top: 50%;   
     left: 50%;
-    width: 800px;
+    /*max-width: 800px;*/
     text-align: center;
+}
+
+
+.container_p{
+    flex-direction: column;
+    max-width: 800px;
+}
+
+#contacts {
+    margin-top: 15px;
+    text-align: center;
+
 }
 .contact_us {
     text-align: start;
     letter-spacing: 3px;
     box-shadow: 3px 3px 5px 3px ;
     border-radius: 10px;
-    padding: 10px;
-    margin: 10px;
+    padding: 20px;
+    margin: 15px;
     max-width: 300px;
     font-family font-family: 'Gemunu Libre', sans-serif;
     font-size: 20px; 
 }
+.
