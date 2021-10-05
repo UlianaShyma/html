@@ -1,18 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Indie+Flower&display=swap');
-
-/*html{
-      max-width: 400px;
-      margin: auto;
-    }*/
-
-*{
-    background-image: url(https://html5book.ru/wp-content/uploads/2015/05/background1.png);
-}
-body{
-    margin: 0px;
-}
+ 
 #background_synevyr{
     position: relative;
     overflow: hidden;
     z-index: 1 
+}
+.content
+{
+    background: transparent;
+    position: absolute;
+    top: 240px;
+    left: 400px;
+  
+}
+#site_title{
+    
+    margin: 0px;
+    align: justify;
+    background: transparent;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    font-family: 'Indie Flower', cursive;
+    font-size: 80px;
+    font-weight: 900;
+    text-shadow: 1px 1px 1px;
 }

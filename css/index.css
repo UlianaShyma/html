@@ -1,81 +1,37 @@
-    @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap')
 
-/*html{
-      max-width: 400px;
-      margin: auto;
-    }*/
-
-*{
-    background-image: url(https://html5book.ru/wp-content/uploads/2015/05/background1.png);
-}
-body{
-    margin: 0px;
-}
-
-#header{
-    position: fixed;
-    justify-content: space-between;
-    z-index: 2;
-    align-content: center;
-    display: inline-flex;
-    background: transparent;
-    width: 100%;
-    height: 130px;
-    top: 0px;
-}
-
-#logo{
-    /*display: inline;*/
-    position: absolute;
-    left: 25px;
-    top: 7px;
-    box-sizing: border-box;
-    background: transparent;
-}
-
-#site_title
-{
-    display: inline-block;
-    font-family: 'Indie Flower', cursive;
-    font-size: 43px;
-    position: absolute;
-    left: 145px;
-    top: 10px;
-    background: transparent;
-}
-
-nav{
-    display: inline-block;
-    align-self: center;
-    font-family: 'Indie Flower', cursive;
-    position: relative;
-    right: 110px;
-    background: transparent;
-}
-.menu{
-    background: transparent;
-}
-
-.menu a{
-    margin: 0 auto;
-    padding: 14px 16px;
-    font-size: 22px; 
-    font-weight: bold;
-    background: transparent;
-    font-family: 'Indie Flower', cursive;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: black;
-}
-.menu a:hover{
-    border-bottom: 2px solid #000000FF;   
-}
-#background{
+#background_home {
     position: relative;
     overflow: hidden;
-    z-index: 1 
+    z-index: 1;
+    opacity: .9; 
 }
 
+.container {
+    vertical-align: text-top;
+}
+.content {
+
+    position: relative;
+    background: transparent;
+}
+
+#site_title {
+     
+    position: absolute;
+    text-align: center;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    font-family: 'Indie Flower', cursive;
+    font-size: 80px;
+    font-weight: 900;
+    text-shadow: 1px 1px 1px; 
+    width: 100%;
+    bottom: 0px;
+    background: transparent;
+    background-color: rgb(0, 0, 0, 0.5);
+   
+}
 #places_logo
 {
     margin: 20px;
@@ -87,8 +43,8 @@ nav{
 {
     font-size: 36pt;
 
-    padding: 80px;
-
+    padding: 10px;
+    margin: 0px;
     text-align: center;
 
     opacity: .9;
@@ -107,8 +63,8 @@ main
 h2
 {
     font-size: xx-large;
-
     font-variant-caps: all-petite-caps;
+    text-shadow: 1px 1px 1px;
 }
 
 h3
@@ -123,19 +79,28 @@ article
     max-width: 800px;
     margin-right: auto;
     margin-left: auto;
-
     text-align: center;
 }
 
 p
 {
     font-family: 'Indie Flower', cursive;
-    font-size: large;
-
-    top: 50%;
+    font-size: 20px;
+    font-weight: 580;
+    display: inline-block; 
+    top: 50%;   
     left: 50%;
-
-    width: 400px;
-
-    text-align: left;
+    width: 800px;
+    text-align: center;
+}
+.contact_us {
+    text-align: start;
+    letter-spacing: 3px;
+    box-shadow: 3px 3px 5px 3px ;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    max-width: 300px;
+    font-family font-family: 'Gemunu Libre', sans-serif;
+    font-size: 20px; 
 }

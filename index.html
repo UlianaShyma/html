@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/icon.jpg">
+    <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/index.css">
     <title>TTP | Two ticket, please!</title>
 </head>
@@ -15,7 +16,6 @@
             <a href="#home" class="logo">
                 <img id = "logo" src="img/logo.png" alt="TTP"  width="110px">
             </a>
-            <h1 id="site_title">Travel blog</h1>
         <nav>
             <div class="menu">
                 <a href="#home">Home</a>
@@ -27,8 +27,14 @@
         </div>
     </header> 
     <main>
-         <img id = "background" src="img/fon.png" alt="Mountains"  width=100%>
-        <h1 id = "places">Amazing places</h1>
+        <div class="container">
+               <img id = "background_home" src="img/background_home.png" alt="Mountains"  width=100%>
+            <div class="content">
+                <h2 id="site_title">Travel with us</h2>
+            </div>
+       </div>
+
+         <h1 id = "places">Amazing places</h1>
 
         <div class="places">
             <article>
@@ -86,22 +92,24 @@
    <footer>
         <h2 id="contacts">Contacts</h2>
         <form action="https://formspree.io/f/mdoybleq" method="POST">
-        <div>
+        <div class="contact_us">
+            <div class="user_name">
             <label>Your name:
                 <input type="text" name="user-name" placeholder="User Name">
               </label>
             </div>
-            <div>
+            <div class="user_email">
               <label>Your email:
                   <input type="email" name="user-email" placeholder="User Email">
               </label>
+            <br>
             </div>
-            <div>
-              <p>Your question:
+            <div class="your_question">
+              <span>Your question:</span>
                 <textarea name="text"></textarea>          
-              </p>
-              <input type="submit">
+              <input type="submit" name="Submit">
             </div>
+        </div>
         </form>
      </footer>
 
