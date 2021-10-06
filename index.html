@@ -37,7 +37,9 @@
         <div class="places">
             <article>
                 <h2 font-variant-caps: all-petite-caps>Zakarpattya</h2>
-                <img src="img/Synevyr.png" alt="Закарпаття" style="width: 100%; max-width: 800px">
+                <div class="container_article_odd">
+                <img id="synevyr" src="img/Synevyr.png" alt="Закарпаття" style="width: 100%; max-width: 800px">
+                    <div class="container_p">
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
                     expedita obcaecati adipisci explicabo impedit facere est qui
@@ -45,23 +47,31 @@
                     esse numquam dolor nisi!
                   </p>
                   <button onclick="location.href='places/synevyr.html'">More...</button>
+                    </div>
+                </div>
             </article>
 
             <article>
                 <h2>Hostynnyi dvir, Korosno</h2>
+                <div class="container_article_twin">
                 <img src="img/Korosno.png" alt="Гостинний двір" style="width: 100%; max-width: 800px">
+                    <div class="container_p">
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
                     expedita obcaecati adipisci explicabo impedit facere est qui
                     voluptate. Fugiat libero molestiae suscipit eaque quae nihil sequi
                     esse numquam dolor nisi!
-                  </p>
-                  <button onclick="location.href='places/korosno.html'">More...</button>
+                </p>
+                <button onclick="location.href='places/korosno.html'">More...</button>
+                    </div>
+                </div>
             </article>
 
             <article>
                 <h2>Lviv</h2>
+                <div class="container_article_odd">
                 <img src="img/Lviv.png" alt="Львів" style="width: 100%; max-width: 800px">
+                     <div class="container_p">
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
                     expedita obcaecati adipisci explicabo impedit facere est qui
@@ -69,11 +79,15 @@
                     esse numquam dolor nisi!
                   </p>
                   <button onclick="location.href='places/lviv.html'">More...</button>
+                     </div>
+                </div>
             </article>
 
             <article>
                 <h2>Vorohta</h2>
-                <img src="img/Vorohta.png" alt="Ворохта" style="width: 100%; max-width: 800px">
+                <div class="container_article_twin">
+                 <img src="img/Vorohta.png" alt="Ворохта" style="width: 100%; max-width: 800px">
+                     <div class="container_p">
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
                     expedita obcaecati adipisci explicabo impedit facere est qui
@@ -81,8 +95,9 @@
                     esse numquam dolor nisi!
                   </p>
                   <button onclick="location.href='places/vorohta.html'">More...</button>
+                     </div>
+                </div>
             </article>
-
         </div>
 
     </main>
@@ -96,16 +111,18 @@
                 <input type="text" name="user-name" placeholder="User Name">
               </label>
             </div>
+            <br>
             <div class="user_email">
               <label>Your email:
                   <input type="email" name="user-email" placeholder="User Email">
               </label>
             <br>
             </div>
+            <br>
             <div class="your_question">
               <span>Your question:</span>
                 <textarea name="text"></textarea>          
-              <input type="submit" name="Submit">
+              <input type="submit">
             </div>
         </div>
         </form>
