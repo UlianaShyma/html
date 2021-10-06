@@ -7,27 +7,28 @@
     opacity: .9; 
 }
 
-.container {
-    vertical-align: text-top;
-}
-.content {
 
+.container {
     position: relative;
-    background: transparent;
+    text-align: center;
+    color: lightgrey;
 }
+
 
 #site_title {
-     
+
     position: absolute;
-    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
     letter-spacing: 7px;
     text-transform: uppercase;
     font-family: 'Indie Flower', cursive;
-    font-size: 80px;
+    font-size: xx-large;
     font-weight: 900;
     text-shadow: 1px 1px 1px; 
     width: 100%;
-    bottom: 0px;
     background: transparent;
     background-color: rgb(0, 0, 0, 0.5);
    
