@@ -7,26 +7,28 @@
     opacity: .9; 
 }
 
-.container {
-    vertical-align: text-top;
-}
-.content {
 
+.container_bg_home {
     position: relative;
-    background: transparent;
+    text-align: center;
+    color: lightgrey;
 }
+
 
 #site_title {
     position: absolute;
-    text-align: center;
+    align-self: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
     letter-spacing: 7px;
     text-transform: uppercase;
     font-family: 'Indie Flower', cursive;
-    font-size: 80px;
-    font-weight: 900;
+    font-size: xx-large;
+    font-weight: bolder;
     text-shadow: 1px 1px 1px; 
-    width: 100%;
-    bottom: 0px;
+    width: 35%;
     background: transparent;
     background-color: rgb(0, 0, 0, 0.5);
    
@@ -46,7 +48,7 @@
     margin: 15px;
     text-align: center;
 }
-@media (min-width: 1100px) {
+@media (min-width: 1085px) {
 
     .container_article_odd {
         display: flex;
@@ -57,7 +59,7 @@
     }
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1085px) {
 
     .container_article_odd {
         display: block;
@@ -74,9 +76,15 @@ main
 
 h2
 {
-    font-size: xx-large;
+    font-size: 35px;
     font-variant-caps: all-petite-caps;
-    text-shadow: 1px 1px 1px;
+    text-shadow: 1px 1px 2px;
+    padding: 10px;
+    padding-bottom: 5px;
+    letter-spacing: 10px;
+    transition-duration: 2s;
+    transition-property: margin-right, color;
+   
 }
 
 h3
@@ -90,6 +98,7 @@ article
 {
     margin-bottom: 30px;
     padding-top: 30px;
+    padding: 5px;
     max-width: 80%;
     margin-right: auto;
     margin-left: auto;
@@ -97,6 +106,10 @@ article
     box-shadow: 3px 3px 3px 3px;
     border-radius: 15px;
     box-sizing: 20px;
+}
+
+article button{
+    cursor: pointer;
 }
 
 p
@@ -133,4 +146,4 @@ p
     font-family font-family: 'Gemunu Libre', sans-serif;
     font-size: 20px; 
 }
-.
+
