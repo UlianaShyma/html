@@ -46,6 +46,7 @@ nav{
     margin: 15px;
 
 }
+
 .menu{
     background: transparent;
      
@@ -62,9 +63,11 @@ nav{
     text-decoration: none;
     color: black;
 }
+
 .menu a:hover{
     border-bottom: 2px solid #000000FF;   
 }
+
 #background{
     position: relative;
     overflow: hidden;

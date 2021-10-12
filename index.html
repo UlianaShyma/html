@@ -11,6 +11,8 @@
 </head>
 <body>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
     <header class="home">
         <div id = "header">
             <a href="#home" class="logo">
@@ -27,6 +29,7 @@
         </div>
     </header> 
     <main>
+
         <div class="container_bg_home">
                <img id = "background_home" src="img/background_home.png" alt="Mountains"  width=100% >
                <div id="site_title">Travel with us</div>
@@ -126,6 +129,16 @@
             </div>
         </div>
         </form>
+
+        <script type="text/javascript">
+        jQuery(window).on('scroll', function() {
+    if(jQuery(window).scrollTop() > 20) {
+        jQuery('#header').css('background-color', '#FFF');
+    } else {
+       jQuery('#header').css('background-color', 'transparent');
+    }
+});
+        </script>
      </footer>
 
 </body>

@@ -7,13 +7,11 @@
     opacity: .9; 
 }
 
-
 .container_bg_home {
     position: relative;
     text-align: center;
     color: lightgrey;
 }
-
 
 #site_title {
     position: absolute;
@@ -33,6 +31,7 @@
     background-color: rgb(0, 0, 0, 0.5);
    
 }
+
 #places_logo
 {
     margin: 20px;
@@ -48,7 +47,8 @@
     margin: 15px;
     text-align: center;
 }
-@media (min-width: 1085px) {
+
+@media (min-width: 1100px) {
 
     .container_article_odd {
         display: flex;
@@ -69,6 +69,7 @@
     }
     
 }
+
 main
 {
     position: relative;
@@ -146,4 +147,3 @@ p
     font-family font-family: 'Gemunu Libre', sans-serif;
     font-size: 20px; 
 }
-
