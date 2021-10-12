@@ -11,6 +11,8 @@
 </head>
 <body>
 
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
     <header class="home">
         <div id = "header">
             <a href="#home" class="logo">
@@ -126,6 +128,16 @@
             </div>
         </div>
         </form>
+
+        <script type="text/javascript">
+        jQuery(window).on('scroll', function() {
+    if(jQuery(window).scrollTop() > 20) {
+        jQuery('#header').css('background-color', '#FFF');
+    } else {
+       jQuery('#header').css('background-color', 'transparent');
+    }
+});
+        </script>
      </footer>
 
 </body>
